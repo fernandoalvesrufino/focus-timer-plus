@@ -143,3 +143,58 @@ main {
 .card.select {
   background: var(--bg-second-card);
 }
+
+
+@media screen and (max-width: 980px) {
+  main {
+    flex-direction: column;
+    gap: 5rem;
+  
+    padding: 0;
+  } 
+
+  .display {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #timer {
+    margin: 0 auto;
+    font-size: clamp(10rem, 2.5vw, 12.6rem);
+  }
+
+  #controls {
+    width: 30rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    width: 15rem;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    padding: 3.8rem 3.7rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #timer {
+    margin: 0 auto;
+    font-size: clamp(8rem, 2.5vw, 12.6rem);
+  }
+ 
+  .card {
+    padding: 2.8rem 2.7rem;
+  }
+}

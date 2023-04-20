@@ -50,7 +50,7 @@ This is a JavaScript project that implements a timer (Pomodoro-style) to increas
 To access the finished project, [click here](https://fernandoalvesrufino.github.io/focus-timer-plus/).
 
 
-## Files
+## Files 
 
 The project is composed of the following files:
 - `index.html`: HTML file that contains the structure of the application page. It includes references to the necessary CSS and JavaScript files, as well as the markup for the buttons and elements that make up the user interface.
